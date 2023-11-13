@@ -1,0 +1,5 @@
+n=input("enter the numbers")
+s=list(map(int,n.split(" ")))
+m=max(s)
+o=min(s)
+print("minimum number is",o,"\nmaximum number is",m)
